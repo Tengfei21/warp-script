@@ -29,8 +29,8 @@ archAffix(){
 }
 
 endpointyx(){    
-    # 下载优选工具软件，感谢悠哉分享的优选工具
-    wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/youzaiwarp/warp-script/main/files/warp-yxip/warp-linux-$(archAffix) -O warp
+    # 下载优选工具软件，感谢Tengfei21分享的优选工具
+    wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/Tengfei21/warp-script/main/files/warp-yxip/warp-linux-$(archAffix) -O warp
     
     # 取消 Linux 自带的线程限制，以便生成优选 Endpoint IP
     ulimit -n 102400
@@ -194,22 +194,19 @@ endpoint6(){
 menu(){
     clear
     echo "#############################################################"
-    echo -e "# ${RED}WARP Endpoint IP 悠哉一键优选IP脚本${PLAIN}     #"
-    echo -e "# ${GREEN}悠哉${PLAIN}:         综合资源交流分享群组      #"
-    echo -e "# ${GREEN}免费分享${PLAIN}:      综合资源交流分享频道     #"
-    echo -e "# ${GREEN}资源交流${PLAIN}:            TG                 #"
-    echo -e "# ${GREEN}永久免费${PLAIN}:            电报               #"
-    echo -e "# ${GREEN}Telegram 频道${PLAIN}: https://t.me/youzaiV587  #"
-    echo -e "# ${GREEN}Telegram 群组${PLAIN}: https://t.me/youzaiYYDS  #"
-    echo -e "# ${GREEN}悠哉bot${PLAIN}:  @youzaixxxlbot                #"
+    echo -e "# ${RED}WARP Endpoint IP 悠哉一键优选IP脚本${PLAIN}  #"
+    echo -e "# ${GREEN}Tengfei21${PLAIN}:         Tengfei21     #"
+    echo -e "# ${GREEN}免费分享${PLAIN}:      Tengfei21        #"
+    echo -e "# ${GREEN}资源交流${PLAIN}:      Tengfei21        #"
+    echo -e "# ${GREEN}永久免费${PLAIN}:       的TG电报          #"
     echo "#############################################################"
     echo ""
     echo -e " ${GREEN}1.${PLAIN} WARP IPv4 Endpoint IP 优选 ${YELLOW}(默认)${PLAIN}"
     echo -e " ${GREEN}2.${PLAIN} WARP IPv6 Endpoint IP 优选"
     echo " -------------"
-    echo -e " ${GREEN}0.${PLAIN} 添加TG电报群组https://t.me/youzaiYYDS"
+    echo -e " ${GREEN}0.${PLAIN} 添加TG电报@Tengfei21"
     echo ""
-    read -rp "悠哉提示：请输入选项 [0-2]: " menuInput
+    read -rp "Tengfei21：请输入选项 [0-2]: " menuInput
     case $menuInput in
         2 ) endpoint6 ;;
         0 ) exit 1 ;;
