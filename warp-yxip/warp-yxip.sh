@@ -194,7 +194,7 @@ endpoint6(){
 menu(){
     clear
     echo "#############################################################"
-    echo -e "# ${RED}WARP Endpoint IP 悠哉一键优选IP脚本${PLAIN}  #"
+    echo -e "# ${RED}WARP Endpoint IP Tengfei21一键优选IP脚本${PLAIN}  #"
     echo -e "# ${GREEN}Tengfei21${PLAIN}:         Tengfei21     #"
     echo -e "# ${GREEN}免费分享${PLAIN}:      Tengfei21        #"
     echo -e "# ${GREEN}资源交流${PLAIN}:      Tengfei21        #"
