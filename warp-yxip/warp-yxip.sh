@@ -30,7 +30,7 @@ archAffix(){
 
 endpointyx(){    
     # 下载优选工具软件，感谢Tengfei21分享的优选工具
-    wget https://mirror.ghproxy.com/https://raw.githubusercontent.com/Tengfei21/warp-script/main/warp-yxip/warp-linux-$(archAffix) -O warp
+    wget -N https://mirror.ghproxy.com/https://raw.githubusercontent.com/Tenfei21/warp-script/main/warp-yxip/warp-yxip.sh && bash warp-yxip.sh
     
     # 取消 Linux 自带的线程限制，以便生成优选 Endpoint IP
     ulimit -n 102400
